@@ -33,7 +33,7 @@ This project implements real-time background replacement using CUDA and OpenCV. 
 
 ## Directory Structure
 
-./
+
 ├── CMakeLists.txt
 ├── main.cu
 ├── .gitignore
