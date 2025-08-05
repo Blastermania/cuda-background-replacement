@@ -47,9 +47,9 @@ This project implements real-time background replacement using CUDA and OpenCV. 
 
 2. Open a command prompt in the project directory and run:
 
-"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\bin\nvcc.exe" main.cu -o chroma.exe ^
+``"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\bin\nvcc.exe" main.cu -o chroma.exe ^
 -I"C:\opencv\build\include" ^
--L"C:\opencv\build\x64\vc17\lib" -lopencv_world4120
+-L"C:\opencv\build\x64\vc17\lib" -lopencv_world4120``
 
 > Adjust the paths above to match your OpenCV installation.
 
